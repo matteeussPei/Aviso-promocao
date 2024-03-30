@@ -1,5 +1,6 @@
 ![LOGO](https://github.com/matteeussPei/web_scraping/blob/main/web-scraping.jpg?raw=true)
 
+Esse projeto tem como objetivo o monitoramento de preços, mais especificamente de câmera [Fujifilm GFX 50R](https://www.brasiltronic.com.br/camera-digital-fujifilm-gfx-50r-medio-formato-somente-corpo) no site da [BrasilTronic](https://www.brasiltronic.com.br). Assim, se o valor da câmera no site se tornar o valor que foi estabelecido no programa, um e-mail será enviado com informações e o link da câmera.
 Também pode ser encontrado no canal [codifike](https://www.youtube.com/watch?v=YKennHXZyJU&t=1569s), onde estratégias para varrer sites e monitorar preços em constante mudanças é apresentada.
 
 ```python
