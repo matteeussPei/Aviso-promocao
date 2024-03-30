@@ -3,6 +3,17 @@
 Esse projeto tem como objetivo o monitoramento de preços, mais especificamente de câmera [Fujifilm GFX 50R](https://www.brasiltronic.com.br/camera-digital-fujifilm-gfx-50r-medio-formato-somente-corpo) no site da [BrasilTronic](https://www.brasiltronic.com.br). Assim, se o valor da câmera no site se tornar o valor que foi estabelecido no programa, um e-mail será enviado com informações e o link da câmera.
 Também pode ser encontrado no canal [codifike](https://www.youtube.com/watch?v=YKennHXZyJU&t=1569s), onde estratégias para varrer sites e monitorar preços em constante mudanças é apresentada.
 
+### Linguagem
+        
+``Python``
+
+### Bibliotecas
+
+``BeautifulSoup`` - usado para retirar o html da página\
+``requests`` - permite enviar pedidos HTTP/1.1 com extrema facilidade.\
+``smtplib`` - define um objeto de sessão de cliente SMTP que pode ser utilizado para enviar e-mails para qualquer máquina da Internet com um SMTP\
+``email.message`` - fornece a funcionalidade principal para definir e consultar campos de título, para acessar corpos de mensagens e para criar ou modificar mensagens estruturadas.
+
 ```python
 from bs4 import BeautifulSoup
 import requests
