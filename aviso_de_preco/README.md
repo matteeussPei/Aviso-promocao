@@ -1,3 +1,4 @@
+```python
 from bs4 import BeautifulSoup
 import requests
 import smtplib
@@ -22,6 +23,7 @@ num_price = float(num_price)
 preco_minimo = 29000
 
 def send_email():
+    
     email_content = """https://www.brasiltronic.com.br/camera-digital-fujifilm-gfx-50r-medio-formato-somente-corpo"""
 
     msg = email.message.Message()
@@ -44,4 +46,4 @@ def send_email():
 
 if (num_price < preco_minimo):
     send_email()
-
+```
