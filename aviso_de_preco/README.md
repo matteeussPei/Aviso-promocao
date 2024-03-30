@@ -1,3 +1,7 @@
+![LOGO](https://github.com/matteeussPei/web_scraping/blob/main/web-scraping.jpg?raw=true)
+
+Este projeto 
+
 ```python
 from bs4 import BeautifulSoup
 import requests
@@ -8,7 +12,7 @@ URL = "https://www.brasiltronic.com.br/camera-digital-fujifilm-gfx-50r-medio-for
 
 headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15"}
            
-site = requests.get (URL, headers=headers)
+site = requests.get(URL, headers=headers)
 
 soup = BeautifulSoup(site.content, "html.parser")
 
@@ -34,7 +38,7 @@ def send_email():
 
     password ='SENHA DO REMETENTE'
 
-    msg. add_header ('Content-Type', 'text/html')
+    msg.add_header('Content-Type', 'text/html')
     msg.set_payload(email_content)
 
     s = smtplib.SMTP('smtp.gmail.com: 587')
@@ -42,7 +46,7 @@ def send_email():
     s.login(msg['From'], password)
     s.sendmail(msg['From'], [msg['To']], msg.as_string())
 
-    print("Sucesso ao enviar enail.")
+    print("Sucesso ao enviar email.")
 
 if (num_price < preco_minimo):
     send_email()
