@@ -1,6 +1,6 @@
 ![LOGO](https://github.com/matteeussPei/web_scraping/blob/main/web-scraping.jpg?raw=true)
 
-Este projeto 
+Também pode ser encontrado no canal [codifike](https://www.youtube.com/watch?v=YKennHXZyJU&t=1569s), onde estratégias para varrer sites e monitorar preços em constante mudanças é apresentada.
 
 ```python
 from bs4 import BeautifulSoup
